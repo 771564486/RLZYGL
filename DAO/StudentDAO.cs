@@ -40,7 +40,7 @@ namespace DAO
             return Deletebase(stu);
         }
 
-        public new List<StudentModel> SelectAll()
+        public  List<StudentModel> SelectAll()
         {
             var Result = SelectAllbase();
             List<StudentModel> list = new List<StudentModel>();

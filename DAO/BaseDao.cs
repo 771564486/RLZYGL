@@ -31,7 +31,11 @@ namespace DAO
        }
        public List<T> SelectAllbase()
        {
-           return md.Set<T>().AsNoTracking().Select(e=>e).ToList<T>();
+            md.Database.Log = (sql) =>
+            {
+                Console.WriteLine(sql);
+            };
+            return md.Set<T>().AsNoTracking().Select(e=>e).ToList<T>();
        }
        public List<T> SelectOnebase(Expression<Func<T, bool>> where)
        {

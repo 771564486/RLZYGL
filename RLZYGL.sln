@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF", "EF\EF.csproj", "{844079E7-4DEF-4AC7-98A7-2CAE644473C6}"
 EndProject
@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocContainer", "IocContainer\IocContainer.csproj", "{C028D2C3-EC1A-4DEE-82ED-DD935B6333DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLZYGL", "RLZYGL\RLZYGL.csproj", "{D05181A6-162B-4FFE-A8A6-E3BB272BCDAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLZYGL", "RLZYGL\RLZYGL.csproj", "{DDBA602A-9454-45F6-BC9C-50BD6B4A20AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,10 @@ Global
 		{C028D2C3-EC1A-4DEE-82ED-DD935B6333DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C028D2C3-EC1A-4DEE-82ED-DD935B6333DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C028D2C3-EC1A-4DEE-82ED-DD935B6333DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D05181A6-162B-4FFE-A8A6-E3BB272BCDAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D05181A6-162B-4FFE-A8A6-E3BB272BCDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D05181A6-162B-4FFE-A8A6-E3BB272BCDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D05181A6-162B-4FFE-A8A6-E3BB272BCDAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDBA602A-9454-45F6-BC9C-50BD6B4A20AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBA602A-9454-45F6-BC9C-50BD6B4A20AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBA602A-9454-45F6-BC9C-50BD6B4A20AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBA602A-9454-45F6-BC9C-50BD6B4A20AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

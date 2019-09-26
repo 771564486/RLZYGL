@@ -12,11 +12,11 @@ using System.Linq.Expressions;
 using IDAO;
 namespace BLL
 {
-    public class StudentBLL:IStudentBLL<StudentModel>
+    public class StudentBLL:IStudentBLL
     {
-        //IStudentDAO Idao = IocCreate.CreateDAO<StudentDAO>("containerTwo", "StudentBLL");
+        StudentDAO Idao = IocCreate.CreateDAO<StudentDAO>("containerTwo", "StudentBLL");
 
-        IStudentDAO<StudentModel> Idao = new StudentDAO();
+        //IStudentDAO<StudentModel> Idao = new StudentDAO();
         public int Insert(StudentModel t)
         {
             return Idao.Insert(t);

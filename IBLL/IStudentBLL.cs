@@ -7,7 +7,7 @@ using EF;
 using Model;
 namespace IBLL
 {
-    public interface IStudentBLL<T>:IBLL<T> where T:class
+    public interface IStudentBLL:IBLL<StudentModel>
     {
         
     }

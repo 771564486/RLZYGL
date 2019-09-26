@@ -1,0 +1,36 @@
+﻿@model List<StudentModel>
+@{
+    Layout = null;
+}
+@using System.Data;
+@using Model
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View1</title>
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <a href="/Home/Type/Add">新增</a>
+        <table class="table table-bordered">
+            <tr class="tab-pane">
+                <th>编号</th>
+                <th>名称</th>
+                <th>父编号</th>
+                <th>操作</th>
+            </tr>
+            @{foreach (StudentModel t in Model)
+                {
+                    <tr>
+                        <td>@t.StuId</td>
+                        <td>@t.StuName</td>
+                        <td><a href="/Home/UpdateSelect/@t.StuId">修改</a>&nbsp;&nbsp;&nbsp;<a onclick="if (confirm('确定要删除吗?')) { location.href = '/Home/Delete/@t.StuId' }">删除</a></td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+</body>
+</html>
